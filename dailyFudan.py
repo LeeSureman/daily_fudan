@@ -260,8 +260,8 @@ if __name__ == '__main__':
     else:
         def iy_info(text, desp=""):
             pass
-#         logging.error("请按readme操作，以正确完成配置～\n")
-#         sys_exit(1)
+        logging.error("请按readme操作，以正确完成配置～\n")
+        sys_exit(1)
 
     # logging.debug("ACCOUNT：" + uid + psw)
     zlapp_login = 'https://uis.fudan.edu.cn/authserver/login?' \
